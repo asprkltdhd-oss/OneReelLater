@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>How it started...</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&family=Dancing+Script:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Background Music -->
+
+    <audio id="bgMusic" loop>
+        <source src="assets/perfect.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Floating Stars -->
+
+    <div class="stars"></div>
+
+    <!-- Main Container -->
+
+    <main id="book">
+
+        <!-- ========================= -->
+        <!-- INTRO PAGE -->
+        <!-- ========================= -->
+
+        <section class="page active" id="introPage">
+
+            <div class="paper">
+
+
+                <h1 class="introTitle">
+
+                    One Reel Later...
+
+                </h1>
+
+                <div class="introLines">
+
+                    <p class="fadeText">
+                        One reel.
+                    </p>
+
+                    <p class="fadeText">
+                        One follow.
+                    </p>
+
+                    <p class="fadeText">
+                        A few story likes...
+                    </p>
+
+                    <p class="fadeText">
+                        One message.
+                    </p>
+
+                    <p class="fadeText finalLine">
+                        And suddenly...
+                        <br>
+                        there was us.
+                    </p>
+
+                </div>
+
+                <button class="nextBtn" id="introNext">
+
+                    Continue →
+
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- ========================= -->
+        <!-- PASSWORD PAGE -->
+        <!-- ========================= -->
+
+        <section class="page" id="passwordPage">
+
+            <div class="paper">
+
+                <h3 class="handwriting">
+
+                    For Jonathan ❤️
+
+                </h3>
+
+                <h1>
+
+                    Who loves
+                    <br>
+                    you the
+                    <br>
+                    most?
+
+                </h1>
+
+                <input
+                    id="passwordInput"
+                    type="password"
+                    placeholder="Type your answer...">
+
+                <button id="unlockBtn">
+
+                    Unlock ❤️
+
+                </button>
+
+                <p class="hint">
+
+                    Hint:
+                    Starts with A :)
+
+                </p>
+
+                <p id="passwordError">
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- ========================= -->
+        <!-- BIRTHDAY PAGE -->
+        <!-- ========================= -->
+
+        <section class="page" id="birthdayPage">
+
+            <div class="paper">
+
+                <div class="photoTape left"></div>
+                <div class="photoTape right"></div>
+
+                <img
+                    src="assets/photo1.jpg"
+                    class="heroPhoto">
+
+                <p class="photoCaption">
+
+                    look at you 🥺
+
+                </p>
+
+                <h1>
+
+                    Happy
+                    <br>
+                    20th Birthday
+                    <br>
+                    My LOVE ❤️
+
+                </h1>
+
+                <div class="divider"></div>
+
+                <p class="birthdayMessage">
+
+                    Twenty years ago
+                    the world got you.
+
+                    <br><br>
+
+                    One month ago...
+
+                    I got lucky enough
+                    to have you.
+
+                    <br><br>
+
+                    Thank you for making
+                    ordinary days
+                    feel special.
+
+                </p>
+
+                <button class="nextBtn">
+
+                    Open Your Gift →
+
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- ========================= -->
+        <!-- LOVE NOTES PAGE -->
+        <!-- ========================= -->
+
+        <section class="page" id="reasonsPage">
+
+            <div class="paper">
+
+                <h2>
+
+                    20 Little
+                    Love Notes ❤️
+
+                </h2>
+
+                <p class="tapText">
+
+                    Tap the card
+
+                </p>
+
+                <div
+                    id="reasonCard"
+                    class="reasonCard">
+
+                    <span id="reasonNumber">
+
+                        1 / 20
+
+                    </span>
+
+                    <div class="bigHeart">
+
+                        ❤️
+
+                    </div>
+
+                    <h3 id="reasonText">
+
+                        The way
+                        you make me laugh.
+
+                    </h3>
+
+                </div>
+
+                <button
+                    id="finishReasons"
+                    class="nextBtn">
+
+                    Continue →
+
+                </button>
+
+            </div>
+
+        </section>
+
+                <!-- ========================= -->
+        <!-- OUR LITTLE BUCKET LIST -->
+        <!-- ========================= -->
+
+        <section class="page" id="futurePage">
+
+            <div class="paper">
+
+                <h2>
+
+                    Our Little
+                    Bucket List 🌙
+
+                </h2>
+
+                <p class="subtitle">
+
+                    Hopefully...
+                    every single one
+                    with you.
+
+                </p>
+
+                <div class="futureList">
+
+                    <div class="futureItem">
+                        ☐ Watch a sunrise together
+                    </div>
+
+                    <div class="futureItem">
+                        ☐ Watch a sunset together
+                    </div>
+
+                    <div class="futureItem">
+                        ☐ Listen to The Weeknd together
+                    </div>
+
+                    <div class="futureItem">
+                        ☐ Go on random adventures
+                    </div>
+
+                    <div class="futureItem">
+                        ☐ Celebrate your 21st birthday
+                    </div>
+
+                    <div class="futureItem">
+                        ☐ Take too many photos
+                    </div>
+
+                    <div class="futureItem">
+                        ☐ Laugh until our stomachs hurt
+                    </div>
+
+                    <div class="futureItem">
+                        ☐ Keep choosing each other ❤️
+                    </div>
+
+                </div>
+
+                <img
+                    src="assets/photo2.jpg"
+                    class="smallPhoto">
+
+                <button class="nextBtn">
+
+                    One More Thing →
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================= -->
+        <!-- LETTER PAGE -->
+        <!-- ========================= -->
+
+        <section class="page" id="letterPage">
+
+            <div class="paper">
+
+                <img
+                    src="assets/photo3.jpg"
+                    class="letterPhoto">
+
+                <h2>
+
+                    A Letter
+                    For You 💌
+
+                </h2>
+
+                <p id="typewriter">
+
+                </p>
+
+                <button
+                    id="letterNext"
+                    class="nextBtn">
+
+                    Continue →
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================= -->
+        <!-- FINAL PAGE -->
+        <!-- ========================= -->
+
+        <section class="page" id="finalPage">
+
+            <div class="paper">
+
+                <img
+                    src="assets/photo4.jpg"
+                    class="heroPhoto">
+
+                <h1>
+
+                    To Be
+                    Continued...
+
+                </h1>
+
+                <p class="chapter">
+
+                    Chapter One
+
+                    <br><br>
+
+                    May 26, 2026
+                    —
+                    ∞
+
+                </p>
+
+                <p class="ending">
+
+                    If I had to choose again...
+
+                    <br><br>
+
+                    I'd still choose you.
+
+                </p>
+
+                <p class="handwriting">
+
+                    Love,
+
+                    Aishu ❤️
+
+                </p>
+
+            </div>
+
+        </section>
+    
+            <!-- ========================= -->
+        <!-- FLOATING HEARTS -->
+        <!-- ========================= -->
+
+        <div id="heartContainer"></div>
+
+    </main>
+
+    <!-- ========================= -->
+    <!-- LOADING OVERLAY -->
+    <!-- ========================= -->
+
+    <div id="loadingScreen">
+
+        <div class="loadingContent">
+
+            <div class="loadingHeart">
+
+                ❤️
+
+            </div>
+
+            <p>
+
+                Opening something
+                made with love...
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- ========================= -->
+    <!-- JAVASCRIPT -->
+    <!-- ========================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
