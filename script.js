@@ -55,25 +55,25 @@ const PASSWORDS = [
 
 const reasons = [
     "The way you make me laugh.",
-    "You always know how to cheer me up.",
+    "You always make me feel safe.",
     "Your smile fixes everything.",
-    "You do care about the little things.",
+    "You remember little things.",
     "You make ordinary days exciting.",
     "You listen to me patiently.",
-    "You crack the best silly jokes.",
-    "You imitate me in the cutest way.",
-    "You make me feel special.",
-    "Your voice is my favorite sound.",
+    "You believe in me.",
+    "You're effortlessly handsome.",
+    "You care deeply.",
+    "Your hugs feel like home.",
     "You make me blush.",
     "You respect me.",
     "You make distance feel smaller.",
-    "You understand me without words(sometimes).",
+    "You support my dreams.",
     "You calm my overthinking.",
     "You're my comfort person.",
     "You never stop making me smile.",
     "You came into my life unexpectedly.",
     "You make love feel easy.",
-    "Because you're jonathan ❤️"
+    "Because you're simply... you ❤️"
 ];
 
 /* -------------------------
@@ -81,7 +81,7 @@ const reasons = [
 --------------------------*/
 
 const letter = `
-Happy Birthday, Darling ❤️
+Happy Birthday, Jonathan ❤️
 
 I honestly never imagined that
 one random reel would become
@@ -105,7 +105,7 @@ I'll always choose you.
 
 Happy 20th Birthday.
 
-I love you 3000.
+I love you.
 
 — Aishu ❤️
 `;
@@ -127,7 +127,9 @@ function showPage(index) {
     currentPage = index;
 
     // Scroll to top on mobile
-    window.scrollTo(0, 0);
+    setTimeout(() => {
+        window.scrollTo(0, 0);
+    }, 100);
 }
 
 /* -------------------------
