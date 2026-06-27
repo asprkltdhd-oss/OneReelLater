@@ -55,25 +55,25 @@ const PASSWORDS = [
 
 const reasons = [
     "The way you make me laugh.",
-    "You always make me feel safe.",
+    "Your voice.",
     "Your smile fixes everything.",
-    "You remember little things.",
+    "You imitate me in the cutest way.",
     "You make ordinary days exciting.",
     "You listen to me patiently.",
-    "You believe in me.",
-    "You're effortlessly handsome.",
-    "You care deeply.",
-    "Your hugs feel like home.",
+    "Your sense of humor.",
+    "You're effortlessly understand me(sometimes).",
+    "The way you care.",
+    "Your pichukala goodu.",
     "You make me blush.",
     "You respect me.",
     "You make distance feel smaller.",
-    "You support my dreams.",
+    "You only talk once in a day.",
     "You calm my overthinking.",
     "You're my comfort person.",
     "You never stop making me smile.",
     "You came into my life unexpectedly.",
     "You make love feel easy.",
-    "Because you're simply... you ❤️"
+    "Because you're jonathon. ❤️"
 ];
 
 /* -------------------------
