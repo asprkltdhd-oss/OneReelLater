@@ -55,27 +55,38 @@ body{
     overflow:visible;
 }
 
-/* ---------- PAGE ---------- */
+@media (min-width:769px){
+    #book{
+        width:430px;
+        height:100vh;
+        position:fixed;
+        overflow:hidden;
+    }
+}
 
 .page{
     width:100%;
     min-height:100vh;
-    display:none;
+    display:none !important;
     justify-content:center;
     align-items:center;
     padding:20px 0;
     opacity:0;
     visibility:hidden;
     transform:translateX(50px);
-    transition: opacity .6s, transform .6s, visibility .6s;
+    transition: opacity .6s, transform .6s;
     position:relative;
+    z-index:1;
+    pointer-events:none;
 }
 
 .page.active{
-    display:flex;
+    display:flex !important;
     opacity:1;
     visibility:visible;
     transform:translateX(0);
+    z-index:10;
+    pointer-events:auto;
 }
 
 /* ---------- SCRAPBOOK PAPER ---------- */
@@ -659,6 +670,11 @@ input::placeholder{
         min-height:auto;
         height:100vh;
         padding:20px;
+        display:none !important;
+    }
+
+    .page.active{
+        display:flex !important;
     }
 
     .paper{
