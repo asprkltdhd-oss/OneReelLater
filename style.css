@@ -42,8 +42,14 @@ body{
 
     color:white;
 
-    overflow:hidden;
+    overflow-x:hidden;
 
+}
+
+@media(max-width:768px){
+    body{
+        overflow-y:auto;
+    }
 }
 
 /* ---------- STARS BACKGROUND ---------- */
@@ -82,6 +88,14 @@ body{
 
 }
 
+@media(max-width:768px){
+    #book{
+        height:auto;
+        min-height:100vh;
+        overflow:visible;
+    }
+}
+
 /* ---------- PAGE ---------- */
 
 .page{
@@ -112,6 +126,16 @@ body{
 
     visibility .6s;
 
+}
+
+@media(max-width:768px){
+    .page{
+        position:relative;
+        min-height:100vh;
+        align-items:flex-start;
+        padding-top:40px;
+        padding-bottom:40px;
+    }
 }
 
 .page.active{
@@ -146,6 +170,18 @@ body{
 
     overflow:hidden;
 
+    margin:auto;
+
+}
+
+@media(max-width:768px){
+    .paper{
+        max-width:100%;
+        width:90%;
+        min-height:auto;
+        padding:28px;
+        margin:auto;
+    }
 }
 
 /* notebook top */
